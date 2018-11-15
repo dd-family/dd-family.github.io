@@ -1,0 +1,31 @@
+header
+{
+	padding: 10px 0 10px 10px;
+	text-align: center;
+}
+
+nav
+{
+	padding-top: 10px;
+}
+
+nav .section-title
+{
+	border-radius: 0;
+	border-left: none;
+	border-right: none;
+	padding: 10px 0 10px 10px;
+}
+
+/*Оформление ссылок. В виде списка элементов*/
+nav .nav-menu
+{
+	border-bottom: 1px solid rgb(191, 207, 218);
+	margin-bottom: 10px;
+}
+
+/*Оформление ссылок.*/
+nav .nav-menu li a
+{
+	padding: 10px 0 10px 20px;
+}
