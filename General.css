@@ -43,6 +43,12 @@ nav .nav-menu li a
 	border-bottom: 1px solid rgb(231, 232, 236);
 }
 
+nav .nav-menu .nav-menu-right
+{
+	float: right;
+	color: rgb(116, 119, 125);
+}
+
 /*Убираем подчёркивание у последней ссылки*/
 .nav-menu li:last-child a
 {
@@ -53,4 +59,9 @@ nav .nav-menu li a
 {
 	color: rgb(52, 152, 219);
 	background-color: rgb(241, 242, 244);
+}
+
+.nav-menu li a:hover .nav-menu-right
+{
+	color: rgb(52, 152, 219);
 }
