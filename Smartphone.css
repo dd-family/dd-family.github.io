@@ -29,3 +29,26 @@ nav .nav-menu li a
 {
 	padding: 10px 10px 10px 20px;
 }
+
+/* Показываем значок с номером телефона */
+.link-with-tel {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.link-with-tel > a:first-child {
+	flex-grow: 1;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.link-with-tel > a:last-child {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 0;
+}
+
+.link-with-tel > a:last-child:before {
+	content: "\1F4DE";
+}
